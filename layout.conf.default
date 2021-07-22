@@ -1,0 +1,29 @@
+windows=(upper_left upper_right)
+
+window_positions=(
+#First Row
+#upper_left
+# 960x540
+"-519 0 511 560" \
+#upper_right
+# 960x540
+"512 0 1724 560" \
+)
+
+# Camera Names
+
+camera_names=(NE SE)
+
+
+camera_feeds=( \
+
+#NE
+"rtsp://admin:ford2019@192.168.1.64:554/Streaming/channels/1" \
+
+#SE
+"rtsp://admin:Hik12345@192.168.1.120:554/Streaming/channels/1" \
+)
+
+
+# Are we rotating cameras through the window matrix? (default false if not set here)
+# rotate="true"
